@@ -1,0 +1,23 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Understand ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumelio/ecmascript.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Ecmascript"
+  ],
+  "author": "Freddy Lemus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumelio/ecmascript/issues"
+  },
+  "homepage": "https://github.com/sumelio/ecmascript#readme"
+}
