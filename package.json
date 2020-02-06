@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sumelio/ecmascript/issues"
   },
-  "homepage": "https://github.com/sumelio/ecmascript#readme"
+  "homepage": "https://github.com/sumelio/ecmascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
