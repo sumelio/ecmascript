@@ -1,5 +1,4 @@
 
-
 const homero = {
     name: 'Homero',
     salary: 1000,
@@ -25,14 +24,13 @@ const getSalary = (worker) => {
     const {  workers , salary } = worker
     return (!workers.length)
         ? salary
-        : salary + getSalaryFromWorkers(workers);
+        : salary + workers.map((w) => getSalary(w)).reduce((a, b) => a + b);
     
 }
 
-const getSalaryFromWorkers = (workers) => {
-    let total = 0;
-    workers.map((w) => { total += getSalary(w);})
-    return  total;
-}
 
 console.log('test', getSalary(homero));
+
+
+
+
